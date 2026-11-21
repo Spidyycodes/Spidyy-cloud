@@ -1,0 +1,6 @@
+{
+  "name": "SPIDYY CLOUD",
+  "description": "Independent developer website hosting and static deployment platform powered by Cloudflare Workers, D1, R2, and GitHub Actions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

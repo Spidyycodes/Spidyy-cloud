@@ -1,0 +1,25 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "spidyy-cloud-api",
+  "main": "src/worker.ts",
+  "compatibility_date": "2026-03-01",
+  "workers_dev": true,
+  "vars": {
+    "APP_ORIGIN": "https://spidyy-cloud.pages.dev",
+    "SPIDYY_EMAIL_RECOVERY_ENABLED": "false"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "spidyy-cloud-db",
+      "database_id": "REPLACE_WITH_YOUR_D1_DATABASE_ID",
+      "migrations_dir": "../migrations"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "BUCKET",
+      "bucket_name": "spidyy-cloud-sites"
+    }
+  ]
+}
